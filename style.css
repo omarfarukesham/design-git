@@ -1,0 +1,43 @@
+
+.header-design{
+    display: flex;
+    width: 90%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content span{
+    color: orange;
+    font-weight: bolder;
+}
+.content p{
+    font-size: 20px;
+    text-align:justify;
+}
+button{
+    padding: 10px;
+    background:orange;
+    color: white;
+    border-radius: 10%;
+    border:none;
+
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+button:hover{
+    background: black;
+}
+.content{
+    margin: 10px;
+}
+.img-content img{
+    padding-left: 20px;
+}
