@@ -1,12 +1,21 @@
 
 .header-design{
     display: flex;
-    width: 90%;
     font-family: 'Oswald', sans-serif;
+    padding-bottom: 100px;
 }
-
+.half-width{
+    width:50%;
+    padding-left: 30px;
+}
+.half-width img{
+    padding-left: 20%;
+}
 .content h1{
     font-size: 50px;
+}
+.content h2{
+    font-size: 30px;
 }
 
 .content span{
@@ -17,6 +26,7 @@
     font-size: 20px;
     text-align:justify;
 }
+
 button{
     padding: 10px;
     background:orange;
@@ -25,6 +35,7 @@ button{
     border:none;
 
 }
+
 button a{
     color: white;
     text-decoration: none;
@@ -35,9 +46,35 @@ button a{
 button:hover{
     background: black;
 }
-.content{
-    margin: 10px;
+
+.boxes{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
 }
-.img-content img{
-    padding-left: 20px;
+.experience h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.box-1{
+    width: 40%;
+    border-left: 6px solid ;
+    border-image: linear-gradient(to right bottom, #ee270c, #dbdf0f);
+    border-image-slice: 1;
+    margin-right: 5%;
+    margin-left: 50px;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.box-2{
+    width: 40%;
+    border-left: 6px solid ;
+    border-image: linear-gradient(to right bottom, #4644f3, #f5c585);
+    border-image-slice: 1;
+    margin-left: 5%;
+    padding:15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
